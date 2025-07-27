@@ -1,8 +1,9 @@
-body{
+body {
     background-color: rgb(255, 252, 248);
 }
+
 /* header section start */
-.header{
+.header {
     display: flex;
     background-color: aquamarine;
     border: 1px solid yellowgreen;
@@ -11,36 +12,39 @@ body{
     padding: 8px 30px;
     gap: 100px;
 }
-.header-1 img{
+
+.header-1 img {
     width: 80px;
     height: 50px;
 }
 
 .header-2 ul {
-    list-style: none; 
-    display: inline-block; 
+    list-style: none;
+    display: inline-block;
 }
 
 .header-2 li {
     display: inline;
-    margin-left: 50px; 
-    color:rgb(96, 14, 228);
+    margin-left: 50px;
+    color: rgb(96, 14, 228);
     font-size: 20px;
 }
-.header-2 li a{
+
+.header-2 li a {
     text-decoration: none;
 }
+
 /* header section end */
 
 
 /* main section start */
-main{
+main {
     max-width: 1500px;
     margin: 0px auto;
 }
 
 /* discount section start */
-.discount{
+.discount {
     display: flex;
     background-color: rgb(200, 251, 234);
     border: 1px solid yellowgreen;
@@ -48,21 +52,26 @@ main{
     gap: 30%;
     align-items: center;
 }
-.discount-1{
+
+.discount-1 {
     padding: 50px;
     margin: 10px;
 }
-.discount-2{
+
+.discount-2 {
     padding: 50px;
     margin: 10px;
 }
-.discount-1 h1{
+
+.discount-1 h1 {
     font-size: 40px;
 }
-.discount-1 a{
+
+.discount-1 a {
     font-size: 20px;
 }
-.discount-1 button{
+
+.discount-1 button {
     background-color: rgb(156, 11, 246);
     color: #22f00f;
     border: 1px solid yellowgreen;
@@ -70,27 +79,32 @@ main{
     padding: 10px 25px;
     font-weight: bold;
 }
-.discount-2 img{
+
+.discount-2 img {
     border: 1px solid yellowgreen;
     border-radius: 20px;
 }
+
 /* discount section end */
 
 /* main body section start */
-.main-body{
+.main-body {
     max-width: 1200px;
     margin: 0px auto;
 }
-.head-Category{
+
+.head-Category {
     padding: 10px;
     background-color: rgb(190, 249, 230);
-    border-radius: 15px 15px 0px 0px; 
+    border-radius: 15px 15px 0px 0px;
 }
-.head-Category h1{
+
+.head-Category h1 {
     text-align: center;
     color: #fc3aa5;
 }
-.similar{
+
+.similar {
     display: flex;
     gap: 10px;
     background-color: antiquewhite;
@@ -99,26 +113,29 @@ main{
     margin-top: -15px;
     padding: 20px;
     border-radius: 0px 0px 15px 15px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
-.similar-0{
+.similar-0 {
     background-color: rgb(196, 235, 222);
     border: 1px solid yellowgreen;
     border-radius: 10px;
     margin: 20px;
     padding: 20px;
 }
-.similar-0 img{
+
+.similar-0 img {
     width: 150px;
     height: 100px;
     border-radius: 40px;
     padding: 10px;
 }
-.similar-0 p{
+
+.similar-0 p {
     text-align: center;
 }
-.similar-0 button{
+
+.similar-0 button {
     background-color: hotpink;
     border: none;
     border-radius: 5px 15px;
@@ -126,6 +143,7 @@ main{
     padding: 8px 25px;
     font-weight: bold;
 }
+
 /* main body section end */
 
 
@@ -176,8 +194,9 @@ main{
     font-weight: 500;
     font-family: "Inter", serif;
 }
+
 .footer-section-2 a:hover {
-    text-decoration:underline ;
+    text-decoration: underline;
 }
 
 .footer-section-3 a {
@@ -195,27 +214,29 @@ main{
 @media screen and (max-width: 576px) {
 
     /* header section start */
-    .header{
+    .header {
         flex-direction: column;
         gap: 10px;
     }
-    .header-1{
+
+    .header-1 {
         padding-left: 20px;
     }
-    .header-1 h1{
+
+    .header-1 h1 {
         font-size: 18px;
-        padding: 5px; 
+        padding: 5px;
     }
 
     .header-2 ul {
-        display: grid; 
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         text-align: center;
     }
 
     .header-2 li {
         display: block;
-        margin-left: 0px; 
+        margin-left: 0px;
         font-size: 18px;
         padding: 10px;
     }
@@ -223,21 +244,23 @@ main{
     /* header section end */
 
     /* main section start */
-    main{
+    main {
         max-width: 520px;
         margin: 0px auto;
     }
 
     /* discount section start */
-    .discount{
+    .discount {
         flex-direction: column;
         gap: 20px;
     }
-    .discount-1{
+
+    .discount-1 {
         padding: 20px;
         margin: 10px;
     }
-    .discount-2{
+
+    .discount-2 {
         padding: 20px;
         margin: 10px;
     }
@@ -245,23 +268,25 @@ main{
     /* discount section end */
 
     /* main body section start */
-    .main-body{
+    .main-body {
         max-width: 520px;
         margin: 0px auto;
     }
-    .similar{
+
+    .similar {
         flex-direction: column;
         gap: 10px;
         margin-top: -15px;
         padding: 15px;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
-    .similar-0{
+    .similar-0 {
         margin: 10px;
         padding: 10px;
     }
-    .similar-0 img{
+
+    .similar-0 img {
         width: 120px;
         height: 100px;
     }
@@ -307,39 +332,42 @@ main{
 @media screen and (min-width: 576px) and (max-width: 995px) {
 
     /* header section start */
-    .header{
+    .header {
         gap: 70px;
     }
 
     .header-2 ul {
-        list-style: none; 
-        display: inline-block; 
+        list-style: none;
+        display: inline-block;
     }
 
     .header-2 li {
         display: inline;
-        margin-left: 50px; 
-        color:rgb(96, 14, 228);
+        margin-left: 50px;
+        color: rgb(96, 14, 228);
         font-size: 20px;
     }
+
     /* header section end */
 
     /* main section start */
-    main{
+    main {
         max-width: 950px;
         margin: 0px auto;
     }
 
     /* discount section start */
-    .discount{
+    .discount {
         display: flex;
         gap: 20px;
     }
-    .discount-1{
+
+    .discount-1 {
         padding: 20px;
         margin: 10px;
     }
-    .discount-2{
+
+    .discount-2 {
         padding: 30px;
         margin: 10px;
     }
@@ -347,27 +375,30 @@ main{
     /* discount section end */
 
     /* main body section start */
-    .main-body{
+    .main-body {
         max-width: 950px;
         margin: 0px auto;
     }
-    .similar{
+
+    .similar {
         display: flex;
- 
+
         margin-top: -15px;
         padding: 10px;
-        margin-bottom: 30px; 
+        margin-bottom: 30px;
     }
 
-    .similar-0{
+    .similar-0 {
         margin: 10px;
         padding: 10px;
     }
-    .similar-0 img{
+
+    .similar-0 img {
         width: 80px;
         height: 90px;
         padding: 10px;
     }
+
     /* main body section end */
 
-    }
+}
